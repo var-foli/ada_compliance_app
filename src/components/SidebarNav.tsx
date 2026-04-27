@@ -1,4 +1,4 @@
-import { SidebarMenuButton, SidebarMenuItem, SidebarProvider } from "@/components/ui/sidebar";
+import { SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarProvider } from "@/components/ui/sidebar";
 import { Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarHeader } from "@/components/ui/sidebar";
 
 export default function SidebarNav() {
@@ -10,9 +10,7 @@ export default function SidebarNav() {
 
           <SidebarContent>
             <SidebarGroup />
-            <SidebarMenuItem>
-              <SidebarMenuButton size="lg">Course Data</SidebarMenuButton>
-            </SidebarMenuItem>
+            <SidebarMenuButton size="lg">Course Data</SidebarMenuButton>
             <SidebarGroup />
           </SidebarContent>
           <SidebarFooter />

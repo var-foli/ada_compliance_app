@@ -7,7 +7,7 @@ import CourseTable from "./components/Table";
 
 function App() {
   return (
-    <div>
+    <main>
       <div className="grid grid-cols-[2fr_5fr_2fr] grid-rows-[100px_100px_500px] gap-x-10">
         <div className="justify-self-start">
           <SidebarNav />
@@ -22,7 +22,7 @@ function App() {
           <DropdownWithButton />
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
