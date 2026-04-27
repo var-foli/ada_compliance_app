@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -6,15 +6,17 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { ChevronDown } from "lucide-react"
-
+} from "@/components/ui/dropdown-menu";
+import { ChevronDown } from "lucide-react";
 
 export default function DropdownWithButton() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline"><ChevronDown/>Select Course</Button>
+        <Button variant="outline">
+          <ChevronDown />
+          Select Course
+        </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuGroup>
@@ -25,5 +27,5 @@ export default function DropdownWithButton() {
         </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>
-  )
+  );
 }

@@ -7,7 +7,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
 
 const students = [
   {
@@ -52,7 +52,7 @@ const students = [
     enrollDate: "2024-01-14",
     grade: "A+",
   },
-]
+];
 
 export default function CourseTable() {
   return (
@@ -77,5 +77,5 @@ export default function CourseTable() {
         ))}
       </TableBody>
     </Table>
-  )
+  );
 }
